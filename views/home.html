@@ -1,0 +1,395 @@
+<html>
+  <head>
+    <title>百度--贴吧</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style 
+      type="text/css" 
+      media="screen and (min-device-width : 375px) and (max-device-width : 2048px) and (orientation : portrait)">
+      @import url("../public/styles/main.css");
+    </style>
+    <script src="../bower_components/zepto/zepto.min.js"></script>
+    <script src="../public/javascripts/createDiv.js"></script>
+  </head>
+  <body>
+    <div class="layout-center-container">
+      <div class="layout-center-circul">
+
+        <!-- 头部滚动左边 -->
+        <div class="circul-container-left">
+          <div class="circul-image-wrap circul-wrap-content">
+            <ul class="image-list">
+              <li class="image-item">
+                 <img src="http://tb1.bdstatic.com/tb/5fdfdb11728b471048671190c0cec3fdfd0323a5_%E5%89%AF%E6%9C%AC.jpg"/>
+              </li>
+              <li class="image-item">
+                 <img src="http://tb1.bdstatic.com/tb/5fdfdb11728b471048671190c0cec3fdfd0323a5_%E5%89%AF%E6%9C%AC.jpg"/>
+              </li>
+              <li class="image-item">
+                 <img src="http://tb1.bdstatic.com/tb/5fdfdb11728b471048671190c0cec3fdfd0323a5_%E5%89%AF%E6%9C%AC.jpg"/>
+              </li>
+              <li class="image-item">
+                 <img src="http://tb1.bdstatic.com/tb/5fdfdb11728b471048671190c0cec3fdfd0323a5_%E5%89%AF%E6%9C%AC.jpg"/>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 进度条 -->
+          <div class="progress-bar">
+            <span class="progress-prev-item js-progress-prev">prev</span>
+            <ul class="img-page">
+              <li class="unactive">1</li>
+              <li class="unactive">2</li>
+              <li class="unactive">3</li>
+              <li class="unactive">4</li>
+            </ul>
+            <span class="progress-next-item">next</span>
+          </div>       
+        </div>
+
+        <!-- 头部滚动右边 -->
+        <div class="circul-ontainer-right"></div>
+      </div>
+      <div class="content-desc">
+        <div class="left-desc">
+          <div class="left-content-container">
+
+            <!-- 贴吧分类 -->
+            <div class="left-top-category">
+              <div class="title">贴吧分类</div>
+              <div class="gap" style="width:125px"></div>
+            </div>
+
+            <!-- 类别板块 -->
+            <div class="left-category-group">
+
+              <!-- 娱乐明星 -->
+              <div class="left-group-item first-border-top">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon entertainment"></span>
+                    <a title="娱乐明星" target="_blank" href=#>娱乐明星</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="港台东南亚明星" target="_blank" href=#>港台东南亚明星</a>
+                    <a title="内地明星" target="_blank" href=#>内地明星</a>
+                    <a title="韩国明星" target="_blank" href=#>韩国明星</a>
+                    <a title="日本明星" target="_blank" href=#>日本明星</a>
+                    <a title="时尚人物" target="_blank" href=#>时尚人物</a>
+                    <a title="欧美明星" target="_blank" href=#>欧美明星</a>
+                    <a title="主持人" target="_blank" href=#>主持人</a>
+                    <a title="其它娱乐明星" target="_blank" href=#>其它娱乐明星</a>
+                  </div>
+                </div>         
+              </div>
+
+              <!-- 爱综艺 -->
+              <div class="left-group-item left-group-item-hover item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon tvshows"></span>
+                    <a title="爱综艺" target="_blank" href=#>爱综艺</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="内地综艺" target="_blank" href=#>内地综艺</a>
+                    <a title="台湾综艺" target="_blank" href=#>台湾综艺</a>
+                    <a title="韩国综艺" target="_blank" href=#>韩国综艺</a>
+                    <a title="时尚·生活服务" target="_blank" href=#>时尚·生活服务</a>
+                    <a title="体育运动·健康" target="_blank" href=#>体育运动·健康</a>
+                    <a title="财经·职场" target="_blank" href=#>财经·职场</a>
+                    <a title="新闻资讯" target="_blank" href=#>新闻资讯</a>
+                    <a title="音乐·文艺" target="_blank" href=#>音乐·文艺</a>
+                  </div>
+                </div>
+              </div>
+
+              <!--追剧狂-->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon teleplay"></span>
+                    <a title="追剧狂" target="_blank" href=#>追剧狂</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="韩国电视剧" target="_blank" href=#>韩国电视剧</a>
+                    <a title="香港电视剧" target="_blank" href=#>香港电视剧</a>
+                    <a title="美剧" target="_blank" href=#>美剧</a>
+                    <a title="日本电视剧" target="_blank" href=#>日本电视剧</a>
+                    <a title="内地电视剧" target="_blank" href=#>内地电视剧</a>
+                    <a title="台湾电视剧" target="_blank" href=#>台湾电视剧</a>
+                    <a title="东南亚电视剧" target="_blank" href=#>东南亚电视剧</a>
+                    <a title="其他地区电视剧" target="_blank" href=#>其他地区电视剧</a>
+                  </div>
+                </div>
+              </div>
+
+              <!--看电影-->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon movie"></span>
+                    <a title="看电影" target="_blank" href=#>看电影</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="香港电影" target="_blank" href=#>香港电影</a>
+                    <a title="欧美电影" target="_blank" href=#>欧美电影</a>
+                    <a title="内地电影" target="_blank" href=#>内地电影</a>
+                    <a title="韩国电影" target="_blank" href=#>韩国电影</a>
+                    <a title="日本电影" target="_blank" href=#>日本电影</a>
+                    <a title="台湾电影" target="_blank" href=#>台湾电影</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 体育 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon sports"></span>
+                    <a title="体育" target="_blank" href=#>体育</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="足球" target="_blank" href=#>足球</a>
+                    <a title="篮球" target="_blank" href=#>篮球</a>
+                    <a title="NBA" target="_blank" href=#>NBA</a>
+                    <a title="CBA" target="_blank" href=#>CBA</a>
+                    <a title="乒乓球" target="_blank" href=#>乒乓球</a>
+                    <a title="网球" target="_blank" href=#>网球</a>
+                    <a title="舞蹈" target="_blank" href=#>舞蹈</a>
+                    <a title="健身" target="_blank" href=#>健身</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 小说 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon literature"></span>
+                    <a title="小说" target="_blank" href=#>小说</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="奇幻" target="_blank" href=#>奇幻</a>
+                    <a title="言情" target="_blank" href=#>言情</a>
+                    <a title="灵异" target="_blank" href=#>灵异</a>
+                    <a title="穿越" target="_blank" href=#>穿越</a>
+                    <a title="连载" target="_blank" href=#>连载</a>
+                    <a title="修真" target="_blank" href=#>修真</a>
+                    <a title="历史" target="_blank" href=#>历史</a>
+                    <a title="架空文" target="_blank" href=#>架空文</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 生活家 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon livingexport"></span>
+                    <a title="生活家" target="_blank" href=#>生活家</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="小而美" target="_blank" href=#>小而美</a>
+                    <a title="DIY" target="_blank" href=#>DIY</a>
+                    <a title="美食" target="_blank" href=#>美食</a>
+                    <a title="摄影" target="_blank" href=#>摄影</a>
+                    <a title="旅行" target="_blank" href=#>旅行</a>
+                    <a title="画画" target="_blank" href=#>画画</a>
+                    <a title="手绘" target="_blank" href=#>手绘</a>
+                    <a title="植物" target="_blank" href=#>植物</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 闲·趣 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon xianqu"></span>
+                    <a title="闲·趣" target="_blank" href=#>闲·趣</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="萌宠" target="_blank" href=#>萌宠</a>
+                    <a title="萝莉" target="_blank" href=#>萝莉</a>
+                    <a title="重口味" target="_blank" href=#>重口味</a>
+                    <a title="吐槽" target="_blank" href=#>吐槽</a>
+                    <a title="恐怖" target="_blank" href=#>恐怖</a>
+                    <a title="星座" target="_blank" href=#>星座</a>
+                    <a title="爆料" target="_blank" href=#>爆料</a>
+                    <a title="喵星人" target="_blank" href=#>喵星人</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 游戏 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon game"></span>
+                    <a title="游戏" target="_blank" href=#>游戏</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="客户端网游" target="_blank" href=#>客户端网游</a>
+                    <a title="桌游" target="_blank" href=#>桌游</a>
+                    <a title="游戏角色" target="_blank" href=#>游戏角色</a>
+                    <a title="网页版游戏" target="_blank" href=#>网页版游戏</a>
+                    <a title="手机游戏" target="_blank" href=#>手机游戏</a>
+                    <a title="小游戏" target="_blank" href=#>小游戏</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 动漫宅 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon cartoon"></span>
+                    <a title="动漫宅" target="_blank" href=#>动漫宅</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="日本动漫" target="_blank" href=#>日本动漫</a>
+                    <a title="国产动漫" target="_blank" href=#>国产动漫</a>
+                    <a title="欧美动漫" target="_blank" href=#>欧美动漫</a>
+                    <a title="搞笑动漫" target="_blank" href=#>搞笑动漫</a>
+                    <a title="热血动漫" target="_blank" href=#>热血动漫</a>
+                    <a title="推理" target="_blank" href=#>推理</a>
+                    <a title="声优" target="_blank" href=#>声优</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 高校 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon academy"></span>
+                    <a title="高校" target="_blank" href=#>高校</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="北京高校" target="_blank" href=#>北京高校</a>
+                    <a title="山东高校" target="_blank" href=#>山东高校</a>
+                    <a title="江苏高校" target="_blank" href=#>江苏高校</a>
+                    <a title="四川高校" target="_blank" href=#>四川高校</a>
+                    <a title="湖北高校" target="_blank" href=#>湖北高校</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 地区 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon district"></span>
+                    <a title="地区" target="_blank" href=#>地区</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="山东" target="_blank" href=#>山东</a>
+                    <a title="河北" target="_blank" href=#>河北</a>
+                    <a title="河南" target="_blank" href=#>河南</a>
+                    <a title="山西" target="_blank" href=#>山西</a>
+                    <a title="江苏" target="_blank" href=#>江苏</a>
+                    <a title="辽宁" target="_blank" href=#>辽宁</a>
+                    <a title="四川" target="_blank" href=#>四川</a>
+                    <a title="广东" target="_blank" href=#>广东</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 人文自然 -->
+              <div class="left-group-item">
+                <div class="left-group-item-content">
+                  <!-- 类别标题 -->
+                  <div class="title">
+                    <span class="typeicon humanity"></span>
+                    <a title="人文自然" target="_blank" href=#>人文自然</a>
+                  </div>
+                  <!-- 类别内容 -->
+                  <div class="district-wraper">
+                    <a title="艺术" target="_blank" href=#>艺术</a>
+                    <a title="军事" target="_blank" href=#>军事</a>
+                    <a title="历史" target="_blank" href=#>历史</a>
+                    <a title="自然" target="_blank" href=#>自然</a>
+                    <a title="鉴赏收藏" target="_blank" href=#>鉴赏收藏</a>
+                    <a title="名族文化" target="_blank" href=#>名族文化</a>
+                    <a title="语言文化" target="_blank" href=#>语言文化</a>   
+                  </div>
+                </div>
+              </div>
+
+              <!-- 查看全部 -->
+              <div class="all-wraper">
+                <a target="_blank" href=# class="all">
+                  <span class="more-txt">
+                    查看全部
+                  </span>
+                </a>
+              </div>
+
+              <!-- 弹出div层 -->
+              <div class="tip-layer-container tip-message-iframe">
+                <div class="up-container">
+                  <div class="directory-sub-frame">
+                    <!-- 标题 -->
+                    <div class="m-title">
+                      <a title="爱奇艺" target="_blank" href="">爱奇艺</a>
+                    </div>
+                    <!-- 内容 -->
+                    <div class="content-dis">
+                      <a href="" target="_blank" class="d-item">内地综艺</a>
+                      <span class="item-gap"></span>
+                      <a href="" target="_blank" class="d-item">台湾综艺</a>
+                    </div>
+                    <!-- 推荐吧 -->
+                    <div class="recommend-wrap">
+                      <div class="recommend-forum">推荐吧</div>
+                      <a href="" target="_blank" class="rec-item">快乐大本营</a>
+                      <a href="" target="_blank" class="rec-item">国光帮帮忙</a>
+                      <a href="" target="_blank" class="rec-item">大学生了没</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 页面中心右边部分 -->
+        <div class="right-desc">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="layout-footer-block">
+      <p class="layout-footer-statement">
+        ©2014 Baidu使用百度前必读贴吧协议投诉反馈信息网络传播视听节目许可证 0110516
+      </p>
+    </div>
+  </body>
+</html>
